@@ -1,0 +1,28 @@
+.todo{
+  position:relative;
+  margin:1rem 0rem 1rem 1rem;
+}
+.todo .delete_button{
+  position:absolute;
+  right:5%;
+  top:0rem;
+  display:inline-flex;
+}
+
+.delete_button > input{
+  height:1.4rem;
+  width:5rem;
+  border-radius: 5px;
+  border:transparent;
+  cursor:pointer;
+}
+.todo .singletodo{
+  display:inline-flex;
+  list-style-type: disc;
+}
+
+.todolist{
+  overflow:auto;
+  max-height:25rem;
+  padding: 0px;
+}

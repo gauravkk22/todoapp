@@ -1,0 +1,24 @@
+.form{
+  position: relative;
+}
+.addtodo_input{
+  height: 2rem;
+  width:27rem;
+  border:transparent;
+  text-align: center;
+  margin-right: 1rem;
+  background:bisque;
+}
+
+.addtodo_input:focus{
+    border-bottom: 1px solid red;
+    outline:none;
+}
+
+.addtodo_submit{
+  height:2rem;
+  width:5rem;
+  border-radius:5px;
+  border:transparent;
+  cursor:pointer;
+}

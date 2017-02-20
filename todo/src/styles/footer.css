@@ -1,0 +1,16 @@
+.footer{
+  margin-top:4rem;
+  background:transparent;
+}
+.active{
+  cursor:pointer;
+  /*border: 1px solid red;*/
+  width:5rem;
+  background: #4CAF50;
+}
+
+.not_active{
+  cursor:pointer;
+  background:black;
+  color:white;
+}
